@@ -1,12 +1,11 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
   text-align: center;
 }
 
 .board {
 	display: grid;
-	grid-template: repeat(7, auto) / repeat(7, auto);
+	grid-template: repeat(2, auto) / repeat(7, 200px);
 	gap: 20px 20px
 }
