@@ -31,11 +31,13 @@ function App() {
 			if (score + 1 == charactersNames.length) {
 				alert('Congratulations! You have perfect memory, all charactors has been picked\n Score: '+ (score + 1))
 				setScore(0)
+				setGuesses([])
 			}
 		}
 		else {
 			alert(name + ' has been pick, better luck next time\n Score: '+ score)
 			setScore(0)
+			setGuesses([])
 		}
 	}
 
